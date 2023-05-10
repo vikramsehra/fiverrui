@@ -1,0 +1,43 @@
+.orders {
+  display: flex;
+  justify-content: center;
+}
+.orders .container {
+  width: 1000px;
+  padding: 50px 0px;
+}
+.orders .container .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.orders .container .title button {
+  background-color: #1dbf73;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.orders .container table {
+  width: 100%;
+}
+.orders .container table tr {
+  height: 50px;
+}
+.orders .container table tr th {
+  text-align: left;
+}
+.orders .container table tr td .img {
+  width: 50px;
+  height: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.orders .container table tr td .delete {
+  width: 20px;
+  cursor: pointer;
+}
+.orders .container table tr:nth-child(even) {
+  background-color: rgba(29, 191, 115, 0.0588235294);
+}/*# sourceMappingURL=Orders.css.map */

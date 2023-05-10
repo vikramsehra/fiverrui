@@ -1,0 +1,30 @@
+.catCard {
+  width: 250px;
+  height: 340px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+.catCard img {
+  width: 90%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.catCard .desc {
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.catCard .title {
+  font-weight: bold;
+  font-size: 28px;
+  color: black;
+  position: absolute;
+  top: 40px;
+  left: 15px;
+}/*# sourceMappingURL=CatCard.css.map */

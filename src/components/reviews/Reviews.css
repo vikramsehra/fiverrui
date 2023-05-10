@@ -1,0 +1,33 @@
+.reviews {
+  margin-top: 50px;
+}
+.reviews .add {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.reviews .add .addForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.reviews .add .addForm input {
+  padding: 20px;
+}
+.reviews .add .addForm select {
+  width: 100px;
+  padding: 10px;
+}
+.reviews .add .addForm button {
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: #1dbf73;
+  cursor: pointer;
+}
+.reviews hr {
+  height: 0;
+  border: 0.5px solid lightgray;
+  margin: 50px 0px;
+}/*# sourceMappingURL=Reviews.css.map */

@@ -1,0 +1,89 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #013914;
+  color: white;
+  transition: 0.5s all ease;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.navbar.active {
+  background-color: white;
+  color: black;
+}
+.navbar.active hr {
+  width: 100%;
+  height: 0px;
+  border: 0.1px solid rgb(230, 227, 227);
+}
+.navbar .container {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+.navbar .container .logo {
+  font-size: 34px;
+  font-weight: bold;
+}
+.navbar .container .logo .dot {
+  color: #1dbf73;
+}
+.navbar .container .links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-weight: 500;
+}
+.navbar .container .links .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.navbar .container .links .user img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.navbar .container .links .user .options {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: gray;
+  width: 100px;
+  font-weight: 300;
+}
+.navbar .container .links button {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  background-color: transparent;
+}
+.navbar .container .links button:hover {
+  background-color: #1dbf73;
+  color: white;
+}
+.navbar .menu {
+  width: 1000px;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  font-size: 12px;
+  color: gray;
+}/*# sourceMappingURL=Navbar.css.map */
